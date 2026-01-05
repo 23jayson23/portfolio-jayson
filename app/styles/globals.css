@@ -44,6 +44,10 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+  --text-xl: var(--text-xl);
+  --text-md: var(--text-md);
+  --text-sm: var(--text-sm);
+  
 }
 
 :root {
@@ -79,6 +83,8 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* --text-xl: 8rem;
+  --text-xl--line-height:var(--text-xl); */
 }
 
 .dark {
@@ -133,6 +139,27 @@
     @font-face {
     font-family: "Aventa";
     src: url("/fonts/Aventa.otf") format("opentype");
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Dameon";
+    src: url("/fonts/Dameon.ttf") format("opentype");
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+  }
+    @font-face {
+    font-family: "Nectron";
+    src: url("/fonts/Nectron.otf") format("opentype");
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+  }
+   @font-face {
+    font-family: "Mongule";
+    src: url("/fonts/Mongule.otf") format("opentype");
     font-weight: 200 700;
     font-style: normal;
     font-display: swap;
