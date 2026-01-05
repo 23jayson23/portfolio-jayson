@@ -120,6 +120,20 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-[Aventa];
   }
 }
+  @font-face {
+    font-family: "Freedom";
+    src: url("/fonts/Freedom.otf") format("opentype");
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+  }
+    @font-face {
+    font-family: "Aventa";
+    src: url("/fonts/Aventa.otf") format("opentype");
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+  }
