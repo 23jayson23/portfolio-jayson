@@ -8,7 +8,7 @@ export default function Home() {
 
   const words = ["WEB DEVELOPER", "APP DEVELOPER", "UI/UX DESIGNER", "VIRTUAL ASSISTANT"];
   return (
-    <div className="relative flex h-screen w-full items-center overflow-hidden pl-5 md:pl-32">
+    <div className="relative flex h-screen w-full items-center pl-5 md:pl-32">
       <div
         className={cn(
           "absolute inset-0",

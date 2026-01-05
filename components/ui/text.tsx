@@ -7,7 +7,7 @@ interface TextProps {
 }
 export const Text: React.FC<TextProps> = ({ children, variant = "small",className }) => {
     const sizeClasses = {
-        large: "font-[Mongule] text-md md:text-xl",
+        large: "font-[Reactive] text-medium md:text-large",
         medium: "text-xs md:text-base",
         small: "text-sm md:text-base",
     };
