@@ -49,4 +49,18 @@
   --text-small: var(--text-small);
   --text-small--line-height: calc(var(--text-small) * 1.1);
   --text-small--letter-spacing: 0.075rem;
+   --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+  var(--delay, 0ms);
+ 
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
 }
