@@ -41,7 +41,7 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
   --text-large: var(--text-large);
-  --text-large--line-height: calc(var(--text-large) * 1.1); 
+  --text-large--line-height: calc(var(--text-large) * 0.75); 
   --text-large--letter-spacing: 0.1rem;
   --text-medium: var(--text-medium);
   --text-medium--line-height: calc(var(--text-medium) * 0.8);
