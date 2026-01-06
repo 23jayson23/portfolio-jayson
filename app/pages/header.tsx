@@ -19,7 +19,7 @@ const Header = () => {
           </Text>
           <Text variant="large">PROFESSIONAL</Text>
           <LayoutTextFlip words={WORDS} duration={6000} />
-          <Text variant="medium" className="mt-5 md:mt-0">
+          <Text variant="small" className="mt-5 md:mt-0">
             To ensure that the website functions properly, looks beautiful, and
             performs well across various devices and browsers, web developers
             collaborate closely with designers, UX/UI experts, and occasionally
